@@ -213,7 +213,7 @@ private:
 	Manager() {}
 	~Manager() {}
 	Manager(const Manager&) {}
-	Manager& operator=(const Manager&) {}
+//	Manager& operator=(const Manager&) {}
 
 	template <typename T>
 	T* newContext(T* p)
